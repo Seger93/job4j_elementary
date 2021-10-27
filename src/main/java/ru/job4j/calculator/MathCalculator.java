@@ -23,6 +23,6 @@ public class MathCalculator {
     public static void main(String[] args) {
         System.out.println("Результат рассчета равен " + sumAndMultiply(10, 20)
                 + " Сумма всех методов " + allSum(40, 50)
-                + " Рассчет деления и вычитания " + degreeAndSubtraction(20, 30));
+                + " Рассчет деления и вычитания = " + degreeAndSubtraction(20, 30));
     }
 }
