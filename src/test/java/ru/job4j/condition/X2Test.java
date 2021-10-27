@@ -12,12 +12,8 @@ public class X2Test {
         int b = 0;
         int c = 0;
         int x = 2;
-        /* ожидаемое значение. Это всегда одна переменная. */
         int expected = 40;
-        /* вызов метода, который хотим проверить. */
-        /* Результат вычисления. Это всегда одна переменная. */
         int rsl = X2.calc(a, b, c, x);
-        /* сравнение полученного значения с ожидаемым */
         Assert.assertEquals(expected, rsl);
     }
 
@@ -55,7 +51,7 @@ public class X2Test {
     }
 
     @Test
-    public void whenA1B1C1X0Then2() {
+    public void whenA1B1C1X0Then1() {
         int a = 1;
         int b = 1;
         int c = 1;
